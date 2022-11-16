@@ -1,0 +1,339 @@
+/* imports for font styles.................. */
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+/* header main styles */
+.header-section{
+    padding-top: 25px;
+    padding-bottom: 40px;
+    background-color: #0A2640;
+}
+
+/* logo styles.................. */
+.logo{
+    height: 50px;
+    width: 50px;
+    margin-bottom: 8px;
+}
+.boldo{
+    color:#fff;
+    font-size: 40px
+}
+
+/* navbar styles.................. */
+.navbar ul{
+    margin-left: auto;
+}
+.navbar ul li{
+    padding: 0px 15px 0px 15px;
+}
+.navbar ul li a{
+    font-size: 17px;
+    color: #fff;
+}
+.login-btn{
+    color:#0A2640;
+    background-color: #fff;
+    padding: 10px 50px 10px 50px;
+    font-weight: bold;
+    border-radius: 25px;
+    border: 2px solid #fff;
+    margin-left: 5px;
+}
+.login-btn:hover{
+    background-color: #64E4A3;
+    transition: 0.5s;
+}
+
+/* header content styles.................. */
+.header-content{
+    margin-top: 120px;
+}
+.header-content h1{
+    font-size: 48px;
+    font-family: 'Lato', sans-serif;
+    line-height: 70px;
+}
+.header-content p{
+    font-size:17px ;
+}
+.btn1{
+    background-color: #64E4A3;
+    padding: 10px 50px 10px 50px;
+    font-weight: bold;
+    border-radius: 25px;
+    margin-right: 5px;
+}
+.btn1:hover{
+    background-color: #fff;
+    transition: 0.5s;
+}
+.btn2{
+    background-color: #0A2640;
+    padding: 10px 50px 10px 50px;
+    font-weight: bold;
+    border-radius: 25px;
+    border: 2px solid #fff;
+    color:#fff;
+    margin-left: 5px;
+}
+.btn2:hover{
+    background-color: #64E4A3;
+    transition: 0.5s;
+}
+
+/* header slider styles */
+.header-slider{
+    margin-top: 120px;
+}
+.slider-image{
+    height: 150px;
+}
+
+
+/* service section styles */
+.service-section{
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.service-title h5{
+    color: gray;
+}
+.service-title h1{
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Lato', sans-serif;
+    line-height: 70px;
+}
+.service-card img{
+    height: 350px;
+    border-radius: 20px;
+}
+.service-card h3{
+    margin-top: 20px;
+    font-family: 'Lato', sans-serif;
+}
+.service-card h5{
+    margin-top: 10px;
+    line-height: 30px;
+    color:gray;
+    font-family: 'Lato', sans-serif;
+}
+.service-card a{
+    color:#000;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+}
+
+
+/* customer services styles */
+.customer-service1{
+    margin-top: 150px;
+}
+.customer-img{
+    position: absolute;
+    height: 500px;
+    width:600px;
+    border-radius: 25px;
+}
+.bar-img{
+    position: relative;
+    left: 35%;
+    top: 45%;
+    box-shadow: 0px 0px 10px 0px #888888;
+    border-radius: 25px;
+}
+.customer-content1{
+   padding-left: 60px;
+}
+.customer-content1 h1{
+    font-size: 36px;
+    font-family: 'Lato', sans-serif;
+    line-height: 60px;
+}
+.customer-points i{
+    font-size: 30px;
+    color: #fff;
+    background-color: #0A2640;
+    padding: 5px;
+    border-radius: 25px;
+    margin-right: 25px;
+}
+.customer-points h3{
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+}
+.start-button{
+    background-color: #0A2640;
+    padding: 20px 80px 20px 80px;
+    font-size: 50px;
+    font-weight: bold;
+    border-radius: 25px;
+    border: 2px solid #fff;
+    color:#fff;
+    margin-left: 5px;
+}
+.start-button:hover{
+    background-color: #64E4A3;
+    transition: 0.5s;
+}
+.customer-service2{
+    margin-top: 250px;
+}
+
+/* enterpise template styles */
+
+.enterprise-template{
+    margin-top: 200px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: #0A2640;
+}
+.enterprise-title{
+    font-size: 48px;
+    font-family: 'Lato', sans-serif;
+    line-height: 60px;
+    color: #fff;
+}
+.arrows i{
+    font-size: 25px;
+    padding: 12px;
+    background-color: #fff;
+    color: #0A2640;
+    border-radius: 50%;
+    margin: 45px 5px 0px 5px;
+}
+.quote{
+    background-color: #fff;
+    padding: 20px 0px 20px 45px;
+    border-radius: 25px;
+}
+.quote h3{
+    margin-bottom: 37px;
+    line-height: 40px;
+}
+
+/* connect customer styles */
+.connect-customer{
+    margin-top: 120px;
+}
+.connect-img{
+    width: 100%;
+    border-radius: 25px;
+}
+.connect-content h1{
+    font-size: 40px;
+    font-family: 'Lato', sans-serif;
+    line-height: 70px;
+
+}
+.connect-content h4{
+    border-bottom: 1px solid black;
+    padding: 18px 0px 18px 0px;
+}
+.down-arrow-icons{
+    margin-left: 150px;
+    font-size: 25px;
+    padding: 5px;
+    background-color: #0A2640;
+    color: #fff;
+    border-radius: 50%;
+}
+
+/* blog section styles */
+.blogs{
+    margin-top:120px;
+}
+.blog-card{
+    height: 500px;
+}
+.blog-title h1{
+    text-align: center;
+    font-size: 56px;
+    font-family: 'Lato', sans-serif;
+    line-height: 70px;
+}
+.blog-card img{
+    width: 350px;
+    height: 300px;
+    border-radius: 20px;
+}
+.blog-card h3{
+    font-size: 28px;
+    font-family: 'Lato', sans-serif;
+    line-height: 40px;
+
+}
+.load-btn{
+    background-color: #fff;
+    padding: 20px 80px 20px 80px;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 50px;
+    border: 2px solid #0A2640;
+    color: #0A2640;
+    margin-top: 150px;
+}
+
+/* email section styles */
+
+.email-section{
+    margin-top: 120px;
+    background-color: #0A2640;
+    color: #fff;
+    border-radius: 25px;
+    padding-bottom: 80px;
+}
+.email-section h1{
+    padding-top: 80px;
+    font-size: 56px;
+    font-family: 'Lato', sans-serif;
+    line-height: 70px;
+}
+.email-container{
+    margin-right: 15px;
+}
+.email-container input{
+    height: 75px;
+    width: 400px;
+    border-radius: 50px;
+    color: #0A2640;
+    font-size: 25px;
+    text-align: center;
+}
+.email-container input::placeholder{
+    color: #0A2640;
+}
+.btn-container{
+    margin-left: 15px;
+}
+.btn-container button{
+    background-color: #65E4A3;
+    height: 75px;
+    width: 250px;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 50px;
+    border: 2px solid #0A2640;
+    color: #0A2640;
+}
+
+/* footer section styles */
+.footer{
+    margin-top: 120px ;
+}
+.boldo2{
+    color:#0A2640;
+    font-size: 60px
+}
+.footer-links{
+    padding-top: 40px;
+}
+.footer-links a {
+    list-style-type: none;
+    text-decoration: none;
+    color: gray;
+    padding-bottom: 20px;
+}
