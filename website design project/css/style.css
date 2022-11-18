@@ -343,7 +343,43 @@
     padding-bottom: 20px;
 }
 
-
+/* css of about page */
+.res-head{
+    padding-bottom: 250px;
+}
+.gallery-section{
+    margin-top:-150px;
+}
+.our-story-content h1{
+    font-size: 48px;
+    font-family: 'Lato', sans-serif;
+    line-height: 70px;
+}
+.crowdfunding{
+    margin-top: 20px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.crowdfunding h1{
+    font-size: 48px;
+    font-family: 'Lato', sans-serif;
+    line-height: 70px;
+}
+.our-team-content h1{
+    font-size: 48px;
+    font-family: 'Lato', sans-serif;
+    line-height: 70px;
+}
+.our-value{
+    background-color: #0A2640;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.our-value-content h1{
+    font-size: 48px;
+    font-family: 'Lato', sans-serif;
+    line-height: 70px;
+}
 
 /* Extra small devices (phones, 600px and down) */
 
@@ -420,6 +456,14 @@
         border-radius: 50px;
         border: 2px solid #0A2640;
         color: #0A2640;
+    }
+
+    /* about page */
+    .gallery-section{
+        display: none;
+    }
+    .res-head{
+        padding-bottom:50px;
     }
     
 }
