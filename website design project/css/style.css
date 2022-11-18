@@ -95,6 +95,11 @@
     padding-top: 60px;
     padding-bottom: 40px;
 }
+.service-section2{
+    padding-top: 60px;
+    padding-bottom: 40px;
+    background-color: #0A2640;
+}
 .service-title h5{
     color: gray;
 }
@@ -168,7 +173,7 @@
 .start-button{
     background-color: #0A2640;
     padding: 20px 80px 20px 80px;
-    font-size: 50px;
+    font-size: 25px;
     font-weight: bold;
     border-radius: 25px;
     border: 2px solid #fff;
@@ -237,7 +242,7 @@
     margin-left: 150px;
     font-size: 25px;
     padding: 5px;
-    background-color: #0A2640;
+    background-color: #0d1114;
     color: #fff;
     border-radius: 50%;
 }
@@ -337,3 +342,85 @@
     color: gray;
     padding-bottom: 20px;
 }
+
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    .header-content{
+        margin-top: 0px;
+    }
+    .header-content h1{
+        font-size: 30px;
+        font-family: 'Lato', sans-serif;
+        line-height: 50px;
+    }
+    .bar-images{
+        margin-top: 30px;
+    }
+    .header-slider{
+        display: none;
+    }
+    .service-title h1{
+        text-align: center;
+        font-size: 30px;
+        font-family: 'Lato', sans-serif;
+        line-height: 50px;
+    }
+    .service-card{
+        align-items: center;
+    }
+    .customer-img{
+        display: none;
+    }
+    .bar-img{
+        display: none;
+    }
+    .customer-service1{
+        margin-top: 0px;
+    }
+    .start-button{
+        padding: 10px 25px 10px 25px;
+        font-size: 20px;
+        margin-left: 0px;
+    }
+    .customer-service2{
+        margin-top: 50px;
+    }
+    .arrows{
+        margin-top: -50px;
+    }
+    .quote{
+        margin-top: 20px;
+    }
+    .down-arrow-icons{
+        margin-left:10px
+    }
+    .blogs{
+        display: none;
+    }
+    .content h1{
+        font-size: 30px;
+    }
+    .email-container input{
+        height: 40px;
+        width: 150px;
+        border-radius: 25px;
+        color: #0A2640;
+        font-size: 14px;
+        text-align: center;
+    }
+    .btn-container button{
+        background-color: #65E4A3;
+        height: 40px;
+        width: 150px;
+        font-size: 10px;
+        font-weight: bold;
+        border-radius: 50px;
+        border: 2px solid #0A2640;
+        color: #0A2640;
+    }
+    
+}
+
